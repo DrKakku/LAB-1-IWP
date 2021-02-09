@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Lab-1 | 1.n </title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        details>summary {
+            padding: 4px;
+            width: 200px;
+            background-color: #cce48a;
+            border: none;
+            box-shadow: 1px 1px 2px #bbbbbb;
+            cursor: pointer;
+        }
+
+        details>p {
+            background-color: #93e68cb0;
+            padding: 4px;
+            margin: 0;
+            box-shadow: 1px 1px 2px #bbbbbb;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            <div>
+                <h3>using the summary tag </h3>
+                <details>
+                    <summary>summary of the fabled lorem epsum</summary>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestiae facilis
+                        necessitatibus, ipsam ipsum molestias obcaecati explicabo assumenda cumque ea ad illo? Quia
+                        pariatur aspernatur ipsam, dolores et ad veniam.
+                    </p>
+                </details>
+
+                <h3>
+                    Meter Tag is used here
+                </h3>
+
+                <div>
+                    <label for="disk_c">Disk usage C:</label>
+                    <meter id="disk_c" value="7" min="0" max="10">7 out of 10</meter><br>
+
+                    <label for="disk_d">Disk usage D:</label>
+                    <meter id="disk_d" value="0.6">60%</meter>
+                </div>
+
+                <h3>
+                    Progress Tag is used here
+                </h3>
+
+                <label for="file">Downloading progress:</label>
+                <progress id="file" value="32" max="100"> 32% </progress> 
+                <br>
+                while these tags are quiet usefull their capabilites can be best utilised in a dynamic enviorment not in vanilla HTML as they are static in nature here
+
+            </div>
+        </div>
+
+    </div>
+    <a href="index.html">Go Back</a>
+</body>
+
+</html>

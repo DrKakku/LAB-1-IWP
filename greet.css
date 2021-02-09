@@ -1,0 +1,19 @@
+body
+{
+    background-color: blanchedalmond;
+}
+
+body, main
+{
+margin: 5%;
+background-color: rgb(245, 235, 220);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+  th {
+    text-align: center;
+  }
